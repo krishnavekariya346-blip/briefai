@@ -258,20 +258,20 @@ BriefAI workflow:
 ### Server (`server/.env`)
 
 
-| Variable                | Required  | Description                    |
-| ----------------------- | --------- | ------------------------------ |
-| `MONGODB_URI`           | ✅         | MongoDB connection string      |
-| `JWT_SECRET`            | ✅         | JWT signing secret             |
-| `CLIENT_URL`            | ✅         | Frontend URL (CORS & links)    |
-| `AI_PROVIDER`           | —         | `mock` | `gemini` | `groq`     |
-| `GEMINI_API_KEY`        | If gemini | Google AI Studio key           |
-| `GROQ_API_KEY`          | If groq   | Groq console key               |
-| `BILLING_MODE`          | —         | `demo` | `stripe` | `disabled` |
-| `STRIPE_SECRET_KEY`     | If stripe | Stripe test/live secret        |
-| `STRIPE_PRICE_ID_PRO`   | If stripe | Pro subscription price ID      |
-| `STRIPE_WEBHOOK_SECRET` | If stripe | Webhook signing secret         |
-| `FREE_PROPOSAL_LIMIT`   | —         | Free tier cap (default `3`)    |
-| `SMTP_`* / `EMAIL_*`    | For email | Brevo SMTP settings            |
+| Variable                | Required  | Description                 |
+| ----------------------- | --------- | --------------------------- |
+| `MONGODB_URI`           | ✅         | MongoDB connection string   |
+| `JWT_SECRET`            | ✅         | JWT signing secret          |
+| `CLIENT_URL`            | ✅         | Frontend URL (CORS & links) |
+| `AI_PROVIDER`           | —         | `mock`                      |
+| `GEMINI_API_KEY`        | If gemini | Google AI Studio key        |
+| `GROQ_API_KEY`          | If groq   | Groq console key            |
+| `BILLING_MODE`          | —         | `demo`                      |
+| `STRIPE_SECRET_KEY`     | If stripe | Stripe test/live secret     |
+| `STRIPE_PRICE_ID_PRO`   | If stripe | Pro subscription price ID   |
+| `STRIPE_WEBHOOK_SECRET` | If stripe | Webhook signing secret      |
+| `FREE_PROPOSAL_LIMIT`   | —         | Free tier cap (default `3`) |
+| `SMTP_`* / `EMAIL_`*    | For email | Brevo SMTP settings         |
 
 
 ### Client (`client/.env`)
@@ -335,39 +335,29 @@ See **[DEPLOY.md](./DEPLOY.md)** for MongoDB Atlas, Render (API), Vercel (fronte
 
 ## 📸 Screenshots
 
-> Add images to the `screenshots/` folder, then they will display here.
-
 ### 🏠 Landing
-
-Landing
+![Landing](screenshots/landing.png)
 
 ### 🔐 Login
-
-Login
+![Login](screenshots/login.png)
 
 ### 📝 Register
-
-Register
+![Register](screenshots/register.png)
 
 ### 📊 Dashboard
-
-Dashboard
+![Dashboard](screenshots/dashboard.png)
 
 ### 📋 New Brief
-
-New Brief
+![New Brief](screenshots/brief-new.png)
 
 ### 🤖 Proposal Detail
-
-Proposal
+![Proposal](screenshots/proposal.png)
 
 ### ⚙️ Settings
-
-Settings
+![Settings](screenshots/settings.png)
 
 ### 🔗 Public Proposal (Client View)
-
-Public Proposal
+![Public Proposal](screenshots/public-proposal.png)
 
 ---
 
