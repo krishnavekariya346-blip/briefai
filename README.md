@@ -1,15 +1,15 @@
 # BriefAI — AI Proposal SaaS (Full-Stack)
 
-React
-TypeScript
-Node.js
-MongoDB
-Vite
-TailwindCSS
-JWT
-Stripe
-Gemini
-Status
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
+![Vite](https://img.shields.io/badge/Vite-Build-purple)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-UI-blue)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
+![Stripe](https://img.shields.io/badge/Stripe-Payments-indigo)
+![Gemini](https://img.shields.io/badge/Gemini-LLM_API-purple)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
